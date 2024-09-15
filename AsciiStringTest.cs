@@ -79,7 +79,7 @@ namespace AsciiStringTest
 
         }
 
-        public AsciiString ToUpper(){
+        public AsciiString ToUpper1(){
             char [] toUper= new char[_buffer.Length];
             for(int i = 0; i < _buffer.Length; i++){
                 toUper[i]= char.ToUpper( _buffer [i] );
